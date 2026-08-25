@@ -64,7 +64,7 @@ class TextoUtils {
     return /^[a-zA-ZÀ-ÿ]+$/.test(texto);
   }
 
-  /** Troca todas as ocorrências de uma substring por outra */
+  /* Troca todas as ocorrências de uma substring por outra */
   substituirTudo(texto, alvo, substituto) {
     if (!alvo) {
       throw new Error("O alvo não pode ser vazio");
